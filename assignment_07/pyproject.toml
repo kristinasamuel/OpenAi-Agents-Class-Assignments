@@ -1,5 +1,5 @@
 [project]
-name = "assignment-05"
+name = "assignment-07"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -7,7 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "openai-agents>=0.2.8",
     "python-decouple>=3.8",
+    "python-dotenv>=1.1.1",
+    "tavily-python>=0.7.11",
 ]
-
-[tool.uv.workspace]
-members = ["assignment_07", "assignment_07/openai-agents"]
